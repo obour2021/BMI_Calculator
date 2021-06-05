@@ -1,0 +1,124 @@
+html {
+    font-size: 92.5%;
+}
+
+.bmi_image{
+  position: relative;
+  left: 22em;
+  top: 10em;
+}
+.Calculator{
+    position: absolute;
+    left: 31em;
+    top: 0em;
+    background-color:#bbe1fa;
+    width: 25em;
+    height: 32em;
+
+}
+.cover{
+    background-color: #ffffff;
+    margin: 1.6em;
+    width: 22em;
+    height: 28.8em;
+    border-radius: 0.63em;
+    position: relative;
+}
+.content{
+    margin: 3.2em;
+  
+}
+button {
+    margin: 3.2em;
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    left: 5em;
+    font-size: 1em;
+    width: 6em;
+    height: 2em;
+    background-color: #035aa6;
+    color: white;
+    border-radius: 1em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #035aa6;
+    color: white;
+}
+
+img{
+    width: 32em;
+    height: 32em;
+    display: inline-block;
+    left: 10em;
+    top: 9em;
+}
+h1{
+    text-align: center;
+    padding-top: 1.25em;
+    font-family: Poppins;
+    color: #035aa6;
+}
+p{
+    padding-left: 1.25em;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: absolute;
+    left: 0.63em;
+    top: 19em;
+    color: #252a34; 
+    font-family: Poppins
+ 
+    
+}
+input{
+    box-shadow: 0.63em;
+    width: 10em;
+    height: 1.25em;
+    border: 0.15em solid #035aa6;
+}
+label{
+    font-family: Poppins;
+    font-size: 1em;
+}
+
+@media only screen and (max-width:650px ){
+    html { 
+       font-size: 80%;
+       text-align: center;
+ } 
+ .bmi_image{
+     display: block;
+     position: static;
+     margin-left: auto; 
+     margin-top: 5em;
+     
+ }
+ .Calculator{
+     display: block;
+     position: static;
+     margin-left: 9em; 
+     margin-top: 0;
+     margin-bottom: 0;
+    
+ }
+ .cover{
+     top: 1.5em;
+     margin-top: 0;
+     width: 22em;
+ }
+ .content{
+    margin: 2.2em;
+}
+img{
+    width: 25em;
+    height: 32em;
+    margin-bottom: 0;
+ 
+}
+button:hover{
+    background-color: #035aa6;
+    color: white;
+}
+}
